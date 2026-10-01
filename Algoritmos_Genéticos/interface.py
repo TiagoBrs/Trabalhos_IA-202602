@@ -6,11 +6,11 @@ import tkinter
 from tkinter import ttk
 from tkinter import messagebox
 
-from algoritmo_genetico import Algoritmo_Genetico
+from algoritmo_n_rainha import Algoritmo_Genetico
 
 
 #Limite de tamanho do tabuleiro para o desenho ser exibido.
-LIMITE_DESENHO_TABULEIRO = 8
+LIMITE_DESENHO_TABULEIRO = 15
 
 #Tamanho de cada casa do tabuleiro, em pixels.
 TAMANHO_CASA = 50
